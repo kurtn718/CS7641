@@ -98,7 +98,7 @@ class RandomizedProblem:
         plt.plot(range_values, time_random_hill_climb, label='Randomized Hill Climb')
         plt.plot(range_values, time_genetic_algorithm, label='Genetic Algorithm')
         plt.plot(range_values, time_mimic, label='MIMIC')
-        plot_title = 'Fitness vs. Problem Size ' + self.problem_name
+        plot_title = 'Time vs. Problem Size ' + self.problem_name
         plt.title(plot_title)
         plt.legend()
         plt.xlabel('Problem Size')
