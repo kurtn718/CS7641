@@ -10,6 +10,10 @@ Dependencies:  Python 3.9, scikit-learn 1.0.2, pandas 1.4.0, numpy 1.22.2, matpl
 
 The file clustering.py contains all the code to run the Cluster experiments
 
+The file dim_reduction.py contains all the code to run the Dimensionality Reduction experiments
+
+The file neural_network.py contains all the code to run the Neural Network experiments
+
 To run these, executing something like python3 ./clustering.py from the terminal should be sufficient.   The author executed the code in these python scripts in the Pycharm IDE.
 
 
